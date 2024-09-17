@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware,
-                   allow_origins=["https://kuni115.github.io/homework_front/"],
+                   allow_origins=["https://kuni115.github.io/homework_front"],
                    allow_credentials=True,
                    allow_methods=["*"],
                    allow_headers=["*"]
