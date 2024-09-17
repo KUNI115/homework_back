@@ -1,0 +1,15 @@
+{
+    "builds":[
+        {
+            "src":"homework-app-backend/main.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+       {
+           "src": "/(.*)",
+           "dest":"homework-app-backend/main.py"
+
+       } 
+    ]
+}
